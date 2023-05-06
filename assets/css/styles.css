@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.navbar{
+    background: color #373a37;;
+}
+header{
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    padding: 150px;
+    background-position: left;
+}
+.trabajos{
+    background-color:#17A2B8;
+    padding: 150px;
+}
