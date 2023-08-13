@@ -3,16 +3,103 @@
     border: 0;
     padding: 0;
 }
+.font{
+  font-family: Raleway;
+}
+/* pading rem */
+pyr{
+    padding-top: 20rem;
+}
+
+.fonts{
+  height:5rem ;
+  width: 5rem ;
+}
 .navbar{
-    background: color #373a37;;
+    background-color:#373A3C;
 }
 header{
+    height: 39.375rem;
     background-image: url("../img/bg-hero.jpg");
     background-repeat: no-repeat;
-    padding: 150px;
-    background-position: left;
+    background-position: 70% 25% ;
+    background-size: cover;
 }
 .trabajos{
     background-color:#17A2B8;
-    padding: 150px;
+}
+
+.btn-outline-tetra{
+    /* Establecer el color del borde */
+    border-color: #17A2B8;
+  /* Establecer el ancho del borde */
+    border-width: 2px;
+  /* Establecer el estilo del borde (en este caso, línea sólida) */
+    border-style: solid;
+  /* Agregar un poco de espacio entre el texto y el borde */
+    padding: 8px 16px;
+  /* Opcional: para hacer que el botón tenga bordes redondeados */
+    border-radius: 4px;
+  /* Opcional: para cambiar el color del texto del botón */
+    color: #ffffff;
+  /* Opcional: para cambiar el color de fondo del botón */
+    background-color: transparent;
+  /* Opcional: para eliminar el subrayado del texto en el botón */
+    text-decoration: none;
+  /* Opcional: para hacer que el cursor cambie a una mano cuando se pasa por encima del botón */
+    cursor: pointer;   
+}
+.btn-tetra{
+  /* Establecer el color del borde */
+  border-color: #17A2B8;
+/* Establecer el ancho del borde */
+  border-width: 2px;
+/* Establecer el estilo del borde (en este caso, línea sólida) */
+  border-style: solid;
+/* Agregar un poco de espacio entre el texto y el borde */
+  padding: 8px 16px;
+/* Opcional: para hacer que el botón tenga bordes redondeados */
+  border-radius: 4px;
+/* Opcional: para cambiar el color del texto del botón */
+  color: #ffffff;
+/* Opcional: para cambiar el color de fondo del botón */
+  background-color:  #17A2B8;
+/* Opcional: para eliminar el subrayado del texto en el botón */
+  text-decoration: none;
+/* Opcional: para hacer que el cursor cambie a una mano cuando se pasa por encima del botón */
+  cursor: pointer;
+  
+}
+
+.card {
+    padding: 0px;
+}
+.btn-outline-card{
+  /* Establecer el color del borde */
+  border-color: #17A2B8;
+/* Establecer el ancho del borde */
+  border-width: 2px;
+/* Establecer el estilo del borde (en este caso, línea sólida) */
+  border-style: solid;
+/* Agregar un poco de espacio entre el texto y el borde */
+  padding: 8px 16px;
+/* Opcional: para hacer que el botón tenga bordes redondeados */
+  border-radius: 4px;
+/* Opcional: para cambiar el color del texto del botón */
+  color: #17A2B8;
+/* Opcional: para cambiar el color de fondo del botón */
+  background-color: transparent;
+/* Opcional: para eliminar el subrayado del texto en el botón */
+  text-decoration: none;
+/* Opcional: para hacer que el cursor cambie a una mano cuando se pasa por encima del botón */
+  cursor: pointer;   
+}
+.contactame-p{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.footer{
+  height: 8rem;
 }
